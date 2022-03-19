@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    align-items: center;
+    margin: 2rem;
+}
+
+#first_row,
+#second_row,
+#third_row {
+    display: flex;
+}
+
+.box {
+    border: 1px solid green;
+    padding-top: 2.75rem;
+    width: 6.5rem;
+    height: 4.5rem;
+    text-align: center;
+    position: relative;
+    background: #14bdac;
+}
+
+p {
+    font-style: italic;
+}
+
+.box p {
+    position: relative;
+    top: -5rem;
+}
+
+@media (max-width: 400px) {
+    .box {
+        padding-top: 2rem;
+        width: 3.5rem;
+        height: 2.5rem;
+        text-align: center;
+        position: relative;
+    }
+}
